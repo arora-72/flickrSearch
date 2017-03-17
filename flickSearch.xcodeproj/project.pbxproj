@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3157191E7C02C700FE523E /* flickPhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3157181E7C02C700FE523E /* flickPhotosCollectionViewController.swift */; };
+		4B31571D1E7C336100FE523E /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B31571A1E7C336100FE523E /* Flickr.swift */; };
+		4B31571E1E7C336100FE523E /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B31571B1E7C336100FE523E /* FlickrPhoto.swift */; };
+		4B31571F1E7C336100FE523E /* FlickrSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B31571C1E7C336100FE523E /* FlickrSearchResults.swift */; };
+		4B3157211E7C490C00FE523E /* flickrPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3157201E7C490C00FE523E /* flickrPhotoCell.swift */; };
 		4B3781991E7BFE2B00676734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3781981E7BFE2B00676734 /* AppDelegate.swift */; };
 		4B37819B1E7BFE2B00676734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37819A1E7BFE2B00676734 /* ViewController.swift */; };
 		4B37819E1E7BFE2B00676734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B37819C1E7BFE2B00676734 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B3157181E7C02C700FE523E /* flickPhotosCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flickPhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		4B31571A1E7C336100FE523E /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
+		4B31571B1E7C336100FE523E /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
+		4B31571C1E7C336100FE523E /* FlickrSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearchResults.swift; sourceTree = "<group>"; };
+		4B3157201E7C490C00FE523E /* flickrPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flickrPhotoCell.swift; sourceTree = "<group>"; };
 		4B3781951E7BFE2B00676734 /* flickSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3781981E7BFE2B00676734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B37819A1E7BFE2B00676734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +67,12 @@
 				4B3781981E7BFE2B00676734 /* AppDelegate.swift */,
 				4B37819A1E7BFE2B00676734 /* ViewController.swift */,
 				4B37819C1E7BFE2B00676734 /* Main.storyboard */,
+				4B3157201E7C490C00FE523E /* flickrPhotoCell.swift */,
+				4B3157181E7C02C700FE523E /* flickPhotosCollectionViewController.swift */,
 				4B37819F1E7BFE2B00676734 /* Assets.xcassets */,
+				4B31571A1E7C336100FE523E /* Flickr.swift */,
+				4B31571B1E7C336100FE523E /* FlickrPhoto.swift */,
+				4B31571C1E7C336100FE523E /* FlickrSearchResults.swift */,
 				4B3781A11E7BFE2B00676734 /* LaunchScreen.storyboard */,
 				4B3781A41E7BFE2B00676734 /* Info.plist */,
 			);
@@ -137,6 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B37819B1E7BFE2B00676734 /* ViewController.swift in Sources */,
+				4B31571F1E7C336100FE523E /* FlickrSearchResults.swift in Sources */,
+				4B3157191E7C02C700FE523E /* flickPhotosCollectionViewController.swift in Sources */,
+				4B3157211E7C490C00FE523E /* flickrPhotoCell.swift in Sources */,
+				4B31571D1E7C336100FE523E /* Flickr.swift in Sources */,
+				4B31571E1E7C336100FE523E /* FlickrPhoto.swift in Sources */,
 				4B3781991E7BFE2B00676734 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +319,7 @@
 				4B3781A91E7BFE2B00676734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
